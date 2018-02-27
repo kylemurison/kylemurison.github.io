@@ -1,0 +1,17 @@
+h1 {
+  color: #1C2377
+;
+  background-color: #67E750;
+}
+h2 {
+  color: blue;
+}
+body {
+  color: green;
+  font-size: 18px;
+  background-color: #67E750;
+}
+hr { 
+    border-width: 1px;
+    border-color: black;
+}
