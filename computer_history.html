@@ -17,13 +17,25 @@
       body {
         background: linear-gradient(to right, #be93c5, #7bc6cc);
       }
-      tr, td {
-        border: 1px solid black;
+      #nav td {
+        border: 2px solid black;
         padding:10px;
         background-color:#a8bcf0;
       }
+      #nav td:hover {
+        background-color:#BBC9EE;
+      }
       table {
         border-spacing: 30px 0;
+      }
+      ul li {
+        margin:15px;
+        font-family:Arial;
+      }
+      img {
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
       }
     </style>
   </head>
@@ -31,7 +43,7 @@
     <h1>The History Of Computers</h1>
     <h4>View Each Decade:</h4>
     <table>
-      <tr>
+      <tr id="nav">
         <td><a href="">1970s</a></td> 
         <td><a href="">1980s</a></td>
         <td><a href="">1990s</a></td>
@@ -41,5 +53,19 @@
     </table>
     <br><br>
     <h2>The 1970s</h2>
+    <ul>
+      <li><b>1970:</b> The newly formed company Intel reveals the Intel 1103, the first DRAM chip.</li>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Intel_C1103.jpg/220px-Intel_C1103.jpg">
+      <li><b>1971:</b> A team of IBM engineers invent the floppy disk, to carry data between computers.</li>
+      <img src="http://images.computerhistory.org/revonline/images/102716265p-03-01.jpg?w=600" width="200px">
+      <li><b>1973:</b> Robert Metcalfe develops Ethernet, to connect computers and other hardware together.</li>
+      <img src="https://cdn.techterms.com/img/lg/ethernet_42.jpg" width="200px">
+      <li><b>1975:</b> After their success writing software for the Altair 8080 computer, Paul Allen and Bill Gates form Microsoft.</li>
+      <img src="https://cnet4.cbsistatic.com/img/JNM074-KM6Dpt9lOoWGJyI3KqGs=/936x527/2012/08/23/b040cffe-f0e7-11e2-8c7c-d4ae52e62bcc/Microsoft_Logo_1975.jpg" width="240px">
+      <li><b>1976:</b> Steve Jobs and Steve Wozniak start Apple Computers, and release the Apple I, the first computer with a single-circuit board.</li>
+     <img src="http://cdn.osxdaily.com/wp-content/uploads/2010/12/old-apple-logo.jpg" width="200px">
+      <li><b>1977:</b> Apple becomes incorporated, and shows off the Apple II, which features colour graphics and an audio cassette drive.</li>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Apple_II_tranparent_800.png/300px-Apple_II_tranparent_800.png" width="230px">
+    </ul>
   </body>
 </html>
