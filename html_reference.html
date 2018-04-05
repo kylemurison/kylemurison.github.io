@@ -3,13 +3,14 @@
 <html>
 <head>
   <title>HTML Tags Reference</title>
+  <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
   <style>
     body {
     background:linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
     color:white;
    }
     h1 {
-    font-family:verdana;
+    font-family:Verdana;
     text-align:center;
    }
    table, th, td {
@@ -24,6 +25,7 @@
    }
    th {
      height:20px;
+     font-family:Allerta;
    }
    tr:hover {
         background-color: #65A3CC
@@ -43,7 +45,7 @@
     </tr>
     <tr>
       <td>&lt;!-- --&gt;</td>
-      <td>The comment tag. Put text in the middle, and it won't affect the code. Useful for reminding yourself what a section of code does.</td>
+      <td>The comment tag. Any text in it won't affect the code. Useful for reminding yourself what a section of code does.</td>
       <td>&lt;!--Info Table--&gt;</td>
     </tr>
     <tr>
@@ -53,8 +55,13 @@
     </tr>
     <tr>
       <td>&lt;head&gt;</td>
-      <td>Define the head section of the document.</td>
-      <td>&lt;head&gt;&lt;/head&gt;</td>
+      <td>Define the head section of the document, where things like the title usually are.</td>
+      <td>&lt;head&gt;<br>&lt;/head&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;body&gt;</td>
+      <td>Used to define the body, where most of the content is stored.</td>
+      <td>&lt;body&gt;<br>&lt;/body&gt;</td>
     </tr>
     <tr>
       <td>&lt;h1&gt;, &lt;h2&gt;, etc.</td>
@@ -105,6 +112,11 @@
       <td>&lt;b&gt;</td>
       <td>Defines text which will be <b>bold.</b></td>
       <td>&lt;b&gt;Important:&lt;/b&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;hr&gt;</td>
+      <td>A horizontal line, useful for seperating sections of a document.</td>
+      <td>&lt;hr&gt;<br>&lt;h3&gt;Section Two&lt;/h3&gt;</td>
     </tr>
   </table>
 </body>
